@@ -20,34 +20,34 @@ This application is designed to automatically update Linux systems that do not p
 
 1. Open a terminal and navigate to your Downloads folder:
 
-cd ~/Downloads
+   cd ~/Downloads
 
-3. Download the master file using `git`:
+2. Download the master file using `git`:
    
-git clone <repository-url>
+   git clone <repository-url>
 
-   - If `git` is not installed, install it with:
+      - If `git` is not installed, install it with:
 
-        sudo apt install git
+           sudo apt install git
 
 3. Extract the tar file:
 
-sudo tar xzf auto-update-master.tar.gz
+   sudo tar xzf auto-update-master.tar.gz
 
 
-5. Navigate into the extracted directory:
+4. Navigate into the extracted directory:
 
-cd auto-update-master
+   cd auto-update-master
 
 
-6. Make the `install.sh` script executable:
+5. Make the `install.sh` script executable:
    
-sudo chmod +x install.sh
+   sudo chmod +x install.sh
 
 
 7. Run the installation script:
    
-./install.sh
+   ./install.sh
 
 > **Important:** Running the script with `sudo` may install shortcuts in the root user’s home directory. Run the script normally to avoid this issue. You will be prompted for your password when the application is moved to `/opt`.
 
