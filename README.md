@@ -19,35 +19,35 @@ This application is designed to automatically update Linux systems that do not p
 ### 1. Script Install (For Advanced Users)
 
 1. Open a terminal and navigate to your Downloads folder:
+
 cd ~/Downloads
 
-2. Download the master file using `git`:
+3. Download the master file using `git`:
    
 git clone <repository-url>
 
-- If `git` is not installed, install it with:
+   - If `git` is not installed, install it with:
 
-  sudo apt install git
+        sudo apt install git
 
 3. Extract the tar file:
+
 sudo tar xzf auto-update-master.tar.gz
 
 
-4. Navigate into the extracted directory:
+5. Navigate into the extracted directory:
+
 cd auto-update-master
 
 
-5. Make the `install.sh` script executable:
+6. Make the `install.sh` script executable:
+   
 sudo chmod +x install.sh
 
-markdown
-Copy code
 
-6. Run the installation script:
+7. Run the installation script:
+   
 ./install.sh
-
-yaml
-Copy code
 
 > **Important:** Running the script with `sudo` may install shortcuts in the root user’s home directory. Run the script normally to avoid this issue. You will be prompted for your password when the application is moved to `/opt`.
 
@@ -67,12 +67,15 @@ Copy code
 ### Script Method
 
 1. Navigate to the `/opt/auto-update` directory:
+   
 cd ~/Auto-update/scripts/scripts
 
-2. Make the uninstall script executable:
+3. Make the uninstall script executable:
+   
 sudo chmod +x uninstall.sh
 
-3. Run the script:
+5. Run the script:
+   
 ./uninstall.sh
 
 ---
@@ -82,15 +85,6 @@ sudo chmod +x uninstall.sh
 1. Go to the Auto-Update home location folder in your home directory.
 2. Open the `scripts` folder and locate the `uninstall.desktop` file.
 3. Right-click the `uninstall.desktop` file, select **Allow launching**, and click the file to follow the prompts.
-
----
-
-## Example Installation
-
-Here’s an example terminal session for installing the application:
-
-whitejacket88@whitehat:/Files/Play-ground$ sudo tar xzf auto-update-master.tar.gz whitejacket88@whitehat:/Files/Play-ground$ cd auto-update-master whitejacket88@whitehat:/Files/Play-ground/auto-update-master$ sudo chmod +x install.sh whitejacket88@whitehat:/Files/Play-ground/auto-update-master$ ./install.sh Copying files to /opt (you may be prompted for your password)... Copying .desktop file to user locations... Installation complete!
-
 
 ---
 
