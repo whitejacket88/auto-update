@@ -24,7 +24,7 @@ This application is designed to automatically update Linux systems that do not p
 
 2. Download the master file using `git`:
    
-   git clone <repository-url>
+   git clone https://github.com/whitejacket88/auto-update.git
 
       - If `git` is not installed, install it with:
 
