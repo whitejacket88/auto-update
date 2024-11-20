@@ -1,4 +1,4 @@
-# Auto-update Application for Linux Systems
+# Auto-update Application for Linux Systems Coming soon!
 
 This application is designed to automatically update Linux systems that do not perform system updates automatically. It runs in the background and notifies you when updates are available, simplifying the update process.
 
